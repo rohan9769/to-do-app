@@ -17,7 +17,7 @@ Steps To Run :
 
 - Navigate to  http://127.0.0.1:8000/ or  http://127.0.0.1:8000/api
 
-- Now open a new terminal and switch to the front-end directory : cd frontend
+- Now open a new terminal and switch to the front-end directory : cd todo-frontend
 
 - Install the required dependencies : npm install
 
