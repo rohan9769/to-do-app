@@ -1,34 +1,26 @@
 # to-do-app
 
-Steps to Run : 
 
-git clone
-
-cd todo_drf
-
-Create a virtual environment : virtualenv env
-
-Activate the virtual environment : env\scripts\activate
-
-Install the required : pip install -r requirements.txt
-
-pip install django-cor-headers
 
 Steps To Run :
-1) Clone the repository using git clone
+- Clone the repository using git clone
 
-2)cd backend
+- cd todo_drf(This is the backend)
 
-3)Create a virtual environment : virtualenv env
+- Create a virtual environment : virtualenv env
 
-4)Activate the virtual environment : env\scripts\activate
+- Activate the virtual environment : env\scripts\activate
 
-5)Install the required dependencies : pip install -r requirements.txt
+- Install the required dependencies : pip install -r requirements.txt
 
-6)Now start the server : python manage.py runserver
+- Now start the server : python manage.py runserver
 
-7)open a new terminal and switch to the front-end directory : cd frontend
+- Navigate to  http://127.0.0.1:8000/ or  http://127.0.0.1:8000/api
 
-8)Install the required dependencies : npm install
+- Now open a new terminal and switch to the front-end directory : cd frontend
 
-9)Now start the front-end : npm start 
+- Install the required dependencies : npm install
+
+- Now start the front-end : npm start 
+
+Tech Stack : React , DjangoREST Framework , SQLite3.
