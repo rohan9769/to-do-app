@@ -108,18 +108,7 @@ class App extends Component{
     })
   }
 
-  // deleteItem(task){
-  //   var csrftoken = this.getCookie('csrftoken')
-  //   fetch(`http://127.0.0.1:8000/api/task-delete/${task.id}/`,{
-  //   method:'DELETE',
-  //   headers:{
-  //     'Content-type' : 'application/json',
-  //     'X_CSRFToken' : csrftoken,
-  //   },
-  // }).then((response)=>{
-  //   this.fetchTasks()
-  // })
-  // } 
+ 
   deleteItem(task){
     var csrftoken = this.getCookie('csrftoken')
 
